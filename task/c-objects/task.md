@@ -1,6 +1,6 @@
 # Opaque types in C
 
-## Denis do Rosário - Estrutura de Dados I - 2026
+*Em: Estrutura de Dados I - Denis do Rosário - 2026.*
 
 Implemente um tipo abastrado de dado ContaBancaria, com os campos número e saldo onde os clientes podem fazer as seguintes operações:
 
