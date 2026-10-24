@@ -29,6 +29,7 @@ jobs:
 
       - name: Compile Nanoc site
         run: bundle exec nanoc compile
+        working-directory: nanoc
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
@@ -36,7 +37,7 @@ jobs:
       - name: Upload compiled output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'output/'
+          path: 'nanoc/output/'
 
   deploy:
     environment:

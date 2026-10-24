@@ -1,0 +1,44 @@
+# Ignore the nanoc configuration folder itself so it isn't treated as content
+ignore '/nanoc/**/*'
+
+# Ignore root-level dependency and repository files
+ignore '/Gemfile*'
+ignore '/.git/**/*'
+ignore '/.github/**/*'
+ignore '/output/**/*'
+ignore '/tmp/**/*'
+
+# Compile Markdown files using built-in kramdown
+compile '/**/*.md' do
+	filter :redcarpet, renderer: RougeHTML, options: { 
+		fenced_code_blocks: true,
+		autolink: true,
+		tables: true 
+	}
+	filter :rewrite_links
+	layout '/default.*'
+	write item.identifier.without_ext + '.html'
+end
+
+# Compile AsciiDoc files using your custom asciidoctor filter
+compile '/**/*.adoc' do
+	filter :asciidoctor
+	layout '/default.*'
+	write item.identifier.without_ext + '.html'
+end
+
+# Copy assets or pass through other files as needed
+passthrough '/**/*.css'
+passthrough '/**/*.png'
+passthrough '/**/*.c'
+passthrough '/**/*.h'
+passthrough '/**/*.pdf'
+ignore '/**/*.csl'
+passthrough '/**/*.yml'
+passthrough '/**/*.svg'
+
+# TODO: handle this later
+ignore '/**/*.typ'
+
+# Layout routing
+layout '/*', :erb
