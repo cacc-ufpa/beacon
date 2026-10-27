@@ -2,7 +2,7 @@ name: Deploy Nanoc Output to GitHub Pages
 
 on:
   push:
-    branches: ["seruna/main"]
+    branches: ["cacc/beacon"]
 
   workflow_dispatch:
 
