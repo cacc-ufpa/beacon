@@ -10,6 +10,11 @@ Em especial, servem para encurtar a identificação de uma turma:
 ```
 ano-semestre-materia-professor
 ```
+
+Tamanho máximo atual (professores e matérias): 7 caracteres.
+
+Tamanho máximo da abreviação (todos os campos): 22 caracteres.
+
 ## Abreviação de matérias
 
 Baseado na grade do [Projeto Pedagógico de 2024](https://computacao.ufpa.br/images/pdf/2024_PPC_CC.pdf). Vide também o [diagrama](https://computacao.ufpa.br/images/conteudo/pdf/grade_cc.pdf) no site da faculdade.
@@ -18,88 +23,90 @@ Baseado na grade do [Projeto Pedagógico de 2024](https://computacao.ufpa.br/ima
 |-|-|
 | `algo` | Algoritmos |
 | `arch` | Organização e Arquitetura de Computadores |
-| `labarch` | Laboratório de Organização e Arquitetura de Computadores |
-| `acadintro` | Introdução ao Trabalho Acadêmico-Científico |
-| `lnalg` | Álgebra Linear |
+| `archlab` | Laboratório de Organização e Arquitetura de Computadores |
+| `acad` | Introdução ao Trabalho Acadêmico-Científico |
+| `linalg` | Álgebra Linear |
 | `funmat` | Fundamentos de Matemática |
 | `prog1` | Programação de Computadores I |
 | `hci` | Interação Humano-Computador |
-| `disc` | Matemática Discreta |
-| `complaw` | Direito para Computação |
-| `prob` | Probabilidade e Estatística |
+| `discmat` | Matemática Discreta |
+| `law` | Direito para Computação |
+| `probab` | Probabilidade e Estatística |
 | `calc1` | Cálculo I |
 | `prog2` | Programação de Computadores II |
 | `struct1` | Estruturas de Dados I |
 | `auto` | Linguagens Formais e Autômatos |
 | `os` | Sistemas Operacionais |
-| `labos` | Laboratório de Sistemas Operacionais |
+| `oslab` | Laboratório de Sistemas Operacionais |
 | `calc2` | Cálculo II |
-| `prll` | Programação Paralela |
+| `parall` | Programação Paralela |
 | `struct2` | Estruturas de Dados II |
 | `db1` | Banco de Dados I |
 | `matopt` | Otimização Matemática |
 | `engsof1` | Engenharia de Software I |
 | `numcalc` | Cálculo Numérico |
-| `emdedded` | Sistemas Embarcados |
+| `embed` | Sistemas Embarcados |
 | `db2` | Banco de Dados II |
 | `net1` | Rede de Computadores I |
-| `algnlsis` | Análise de Algoritmos |
+| `algnlys` | Análise de Algoritmos |
 | `engsof2` | Engenharia de Software II |
-| `cybersec` | Fundamentos de Cibersegurança |
-| `graphical` | Computação Gráfica |
+| `sec` | Fundamentos de Cibersegurança |
+| `graphic` | Computação Gráfica |
 | `ai` | Inteligência Artificial |
 | `net2` | Rede de Computadores II |
-| `labnet` | Laboratório de Rede de Computadores |
-| `engsofexe` | Prática de Engenharia de Software Moderna |
+| `netlab` | Laboratório de Rede de Computadores |
+| `engsofx` | Prática de Engenharia de Software Moderna |
 | `ext1` | Atividades de Extensão I |
-| `acadcomp` | Metodologia do Trabalho Acadêmico-Científico para Computação |
-| `mchnlearn` | Aprendizado de Máquina |
+| `acadx` | Metodologia do Trabalho Acadêmico-Científico para Computação |
+| `ml` | Aprendizado de Máquina |
 | `dist` | Sistemas Distribuidos |
-| `labdist` | Laboratório de Sistemas Distribuídos |
+| `distlab` | Laboratório de Sistemas Distribuídos |
 | `ext2` | Atividades de Extensão II |
 | `businov` | Empreendedorismo e Inovação para Computação |
-| `tecsociety` | Tecnologia e Sociedade |
+| `society` | Tecnologia e Sociedade |
 | `special` | Tópicos Especiais |
 | `ext3` | Atividades de Extensão III |
 
-Orientação Acadêmica (7º semestre) e Trabalho de Curso (8º semestre) foram excluídos por não terem uma temática definida por turma.
+Orientação Acadêmica (7º semestre) e Trabalho de Curso (8º semestre) foram excluídas por serem personalíssimas.
 
 ## Abreviação de nomes de professores
 
-O corpo docente atual é público, e está disponível no site da Facomp [https://www.computacao.ufpa.br/index.php/professores]. As abreviações foram montadas com as partes mais memoráveis dos nomes ou com base nos emails instituicionais.
+O corpo docente atual é público, e está disponível no site da [Facomp](https://www.computacao.ufpa.br/index.php/professores). As abreviações foram montadas com as partes mais memoráveis dos nomes ou com base nos emails instituicionais.
 
-| Abreviação | Professor |
-|-|-|
-| `riker` | André Figueira Riker |
-| `abelem` | Antonio Jorge Gomes Abelém |
-| `bianchi` | Bianchi Serique Meiguins |
-| `climareis` | Carla Alessandra Lima Reis |
-| `resque` | Carlos Gustavo Resque dos Santos |
-| `kahwage` | Cassia Maria Carneiro Kahwage |
-| `claudomiro` | Claudomiro de Souza de Sales Junior |
-| `cleidson` | Cleidson Ronald Botelho de Souza |
-| `denis` | Denis Lima do Rosário |
-| `dionne` | Dionne Cavalcante Monteiro |
-| `fabiola` | Fabiola Pantoja Oliveira Araújo |
-| `saraiva` | Filipe de Oliveira Saraiva |
-| `flavmont` | Flávia Pessoa Monteiro |
-| `gpinto` | Gustavo Henrique Lima Pinto |
-| `jeff` | Jefferson Magalhães de Morais |
-| `josivaldo` | Josivaldo de Souza Araújo |
-| `josivan` | Josivan Rodrigues dos Reis |
-| `lidio` | Lídio Mauro Lima de Campos |
-| `mpmota` | Marcelle Pereira Mota |
-| `amaris` | Marcos Tulio Amaris González |
-| `kogut` | Marianne Kogut Eliasquevici |
-| `nelson` | Nelson Cruz Sampaio Neto |
-| `pcardoso` | Paula Christina Figueira Cardoso |
-| `viegas` | Raimundo Viegas Junior |
-| `kawa`| Regiane Silva Kawasaki Francês |
-| `reg` | Reginaldo Cordeiro dos Santos Filho |
-| `hidaka` | Renato Hidaka Torres |
-| `samarone` | Roberto Samarone dos Santos Araújo |
-| `quites` | Rodrigo Quites Reis |
-| `sandro` | Sandro Ronaldo Bezerra Oliveira |
-| `vichugo` | Victor Hugo Santiago Costa Pinto |
-| `vini` | Vinicius Augusto Carvalho de Abreu |
+| Abreviação | Professor | Faculdade |
+|-|-|-|
+| `ariker` | André Figueira Riker | Computação |
+| `abelem` | Antonio Jorge Gomes Abelém | Computação |
+| `bianchi` | Bianchi Serique Meiguins | Computação |
+| `clima` | Carla Alessandra Lima Reis | Computação |
+| `resque` | Carlos Gustavo Resque dos Santos | Computação |
+| `cassiak` | Cassia Maria Carneiro Kahwage | Computação |
+| `cldmiro` | Claudomiro de Souza de Sales Junior | Computação |
+| `cldson` | Cleidson Ronald Botelho de Souza | Computação |
+| `denis` | Denis Lima do Rosário | Computação |
+| `dionne` | Dionne Cavalcante Monteiro | Computação |
+| `fpolvr` | Fabiola Pantoja Oliveira Araújo | Computação |
+| `saraiva` | Filipe de Oliveira Saraiva | Computação |
+| `flavmnt` | Flávia Pessoa Monteiro | Computação |
+| `gpinto` | Gustavo Henrique Lima Pinto | Computação |
+| `jmorais` | Jefferson Magalhães de Morais | Computação |
+| `josivd` | Josivaldo de Souza Araújo | Computação |
+| `josivn` | Josivan Rodrigues dos Reis | Computação |
+| `lidio` | Lídio Mauro Lima de Campos | Computação |
+| `mpmota` | Marcelle Pereira Mota | Computação |
+| `amaris` | Marcos Tulio Amaris González | Computação |
+| `kogut` | Marianne Kogut Eliasquevici | Computação |
+| `nelson` | Nelson Cruz Sampaio Neto | Computação |
+| `pchrist` | Paula Christina Figueira Cardoso | Computação |
+| `rviegas` | Raimundo Viegas Junior | Computação |
+| `kawa`| Regiane Silva Kawasaki Francês | Computação |
+| `regicsf` | Reginaldo Cordeiro dos Santos Filho | Computação |
+| `rhidaka` | Renato Hidaka Torres | Computação |
+| `rsa` | Roberto Samarone dos Santos Araújo | Computação |
+| `quites` | Rodrigo Quites Reis | Computação |
+| `sbro` | Sandro Ronaldo Bezerra Oliveira | Computação |
+| `vichugo` | Victor Hugo Santiago Costa Pinto | Computação |
+| `vabreu` | Vinicius Augusto Carvalho de Abreu | Computação |
+| `rfduart` | Rafael Augusto Duarte Guimarães | Matemática |
+| `camilrw` | Camil Samer Zahlan Redwan | Matemática |
 
